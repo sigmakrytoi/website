@@ -1,0 +1,61 @@
+p{
+    padding: 15px;
+    margin: 15px;
+}
+
+.custom-class{
+    background-color: blanchedalmond;
+    border: 4px outset turquoise;
+}
+
+#custom-id{
+    background-color: aqua;
+    border: 4px outset black;
+}
+
+h2{
+    +
+}
+
+div {
+    margin-top: 2px;
+    text-align: center;
+}
+
+#container{
+    width: auto;
+}
+
+header {
+    background-color: aqua;
+    height: 150px;
+}
+
+nav {
+    background-color: blue;
+    height: 40px;
+}
+
+main{
+    background: purple;
+    float: left;
+    width: 75%;
+    height: 250%;
+}
+
+#clean{
+    clear: both;
+}
+
+aside{
+    background: rgb(179, 255, 0);
+    float: left;
+    width: 25%;
+    height: 250%;
+}
+
+footer{
+    margin-top: 4px;
+    background-color: cyan;
+    height: 150px;
+}

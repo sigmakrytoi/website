@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Playfair Display", serif !important;
+    font-weight: 40px;
+}
+
+header, footer {
+    padding: 20px 40px;
+    background-color: brown;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    flex: auto;
+    padding: 20px 40px;
+}
+
+article {
+    width: 100%;
+    height: 320px;
+    padding: 10px;
+    background-color: brown;
+    color: wheat;
+    display: flex;
+    gap: 20px;
+}
+
+article img {
+    height: 100%;
+}
+
+article h2 {
+    font-size: 42px;
+}
+
+article p {
+    font-size: 26px;
+}
+
+article button {
+    padding: 10px 20px;
+    background-color: wheat;
+    border: none;
+    cursor: pointer;
+}
+
+.article_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav a{
+    background-color: azure;
+    color:brown;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.menu, input {
+    display: none;
+}
+
+input:checked ~ menu{
+    display: flex;
+}
+
+.menu {
+    flex-direction:column ;
+    position: absolute;
+    top: 4rem;
+    gap: 20px;
+    list-style: none;
+    left: 9rem;
+}
+
+nav{ position: relative;}
+label { cursor: pointer;}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carousel-inner {
+    height: 900px !important;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+}
